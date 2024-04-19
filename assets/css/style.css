@@ -1,0 +1,103 @@
+a {
+    color: white;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: lighter;
+    
+}
+
+body {
+    font-family: 'EB Garamond';
+    font-size: 22px;
+    color: white;
+    margin-top: 100px;
+    background-color: rgba(54,62,46,255);
+    font-weight: 100;
+}
+
+h1 {
+    display: inline-block;
+    background-color: rgba(44,50,38,255);
+    padding: 35px 230px; 
+    font-size: 32px;
+    font-style: italic;
+    font-weight: lighter;
+    margin-bottom: 20px;
+
+    border: 2px solid gray;
+    z-index: 1;
+     
+}
+
+header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+
+nav {
+    position: relative;
+    display: inline;
+    background-color: rgba(44,50,38,255);
+    padding: 27px 230px; 
+    font-size: 21px;
+    font-style: italic;
+    font-weight: lighter;
+    color: wheat;
+    border: 2px solid gray;
+    z-index: -1;
+     
+}
+
+nav a {
+     
+    margin-right: 20px;
+}
+
+.flexContainer {
+    display: flex;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 120px;
+    margin-right:120px;
+    flex-wrap: wrap;
+    
+}
+
+h2 {
+     
+    background-color: rgba(44,50,38,255);
+    padding: 20px 230px; 
+    font-weight: lighter;
+    font-size: 24px;
+    font-style: italic;
+    border: 2px solid gray;
+    
+}
+
+p {
+    text-align: left;
+    background-color: rgba(44,50,38,255);
+    padding: 20px 230px; 
+    font-weight: lighter;
+    font-size: 24px;
+    font-style: normal;
+    border: 2px solid gray;
+    width: 50%; /* Set the width to 50% of the container */
+    margin-left: auto; /* Align the paragraph to the left side */
+    margin-right: auto; /* Align the paragraph to the left side */
+}
+
+.flexItem {
+     display: inline-flex;
+}
+
+.flexImage {
+    display: flex;
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove extra space below the image */
+    margin: 0 auto; /* Center the image horizontally */
+    
+}
